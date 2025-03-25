@@ -98,6 +98,10 @@ h4 , p , strong{
     text-align: center;
 }
 
+img:first-of-type{
+    margin: 20px 0;
+}
+
 
 /* Loader */
 
@@ -142,3 +146,19 @@ h4 , p , strong{
     width: 90%;
 }
 
+
+/* footer  */
+
+footer{
+    background-color: #000957;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: end;
+}
+
+footer{
+    img{
+        width: 20%;
+    }
+}
